@@ -1,0 +1,16 @@
+/* This is a group selector because they share similar traits */
+.inverted,
+.fancy {
+    font-size: 28px;
+    font-family: Helvetica, Times New Roman, sans-serif;
+}
+
+/* The traits that they do not share */
+.inverted {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.fancy {
+    background-color: yellow;
+}
