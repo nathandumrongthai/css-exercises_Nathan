@@ -1,5 +1,8 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  /* In the solution text-align: center was added here to save the redundancy */
+  text-align: center;
+  /* Looks like this text-align also aligns the image as well. */
 }
 
 img {
@@ -10,6 +13,8 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  /* in the solution, margin-bottom: 32px was added here. But I think my solution works too. */
 }
 
 /* do not edit this footer */
@@ -23,4 +28,26 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+/* appropriately named 'container' in the solution */
+.collection {
+  display: flex;
+  margin: 32px;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant {
+  /* MY SOLUTION */
+  /* display: flex;
+  flex-basis: 200px;
+  flex-direction: column;
+  align-items: center; */
+
+  max-width: 200px; /* makes it a lot easier */
+}
+
+.text {
+  text-align: center;
 }
