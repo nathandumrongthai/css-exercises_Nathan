@@ -38,4 +38,6 @@ ul {
   margin: 0;
   padding: 0;
   gap: 8px;
+  /* This is what I was missing, gap are used to fill in gaps
+  instead I decided to tinker around with the margins instead */
 }
